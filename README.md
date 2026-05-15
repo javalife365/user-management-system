@@ -1,3 +1,5 @@
+# User Management System (FullStack Project - Springboot and React)
+
 user-management-system/ <br>
 │ <br>
 ├── user-api/ <br>
@@ -6,13 +8,13 @@ user-management-system/ <br>
 │ <br>
 └── docker-compose.yml <br>
 
-# User Management System - APIs
+## Backend - APIs by using below
 
 - Java 21
 - Maven
 - Springboot 3.5.14
 
-## Dependencies
+### Dependencies
 
 1. Spring Web
 2. Spring Security
@@ -22,7 +24,7 @@ user-management-system/ <br>
 6. MySQL Driver
 7. JWT
 
-## API Structure
+### API Structure
 
 user-api/src/main/java/javalife365/userapi
 
@@ -34,3 +36,22 @@ user-api/src/main/java/javalife365/userapi
 ├── security/ <br>
 ├── service/ <br>
 └── UserManagementApplication.java <br>
+
+# Frontend - UI using below
+
+- React
+- HTML
+- CSS
+- JavaScript
+
+### Frontend Structure
+
+user-ui/src <br>
+├── pages/ <br>
+│ ├── Login.js <br>
+│ ├── Signup.js <br>
+│ ├── AdminDashboard.js <br>
+│ └── EmployeeDashboard.js <br>
+│ <br>
+├── App.js <br>
+└── api.js <br>
