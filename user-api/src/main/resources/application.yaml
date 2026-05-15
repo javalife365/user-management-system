@@ -3,7 +3,7 @@ spring:
     name: user-api
 
   datasource:
-    url: jdbc:mysql://localhost:3306/javalife365
+    url: jdbc:mysql://localhost:3306/user_mgmt_db?createDatabaseIfNotExist=true
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: root
