@@ -1,8 +1,8 @@
 user-management-system/
 │
-├── api/
+├── user-api/
 │
-├── ui/
+├── user-ui/
 │
 └── docker-compose.yml
 
